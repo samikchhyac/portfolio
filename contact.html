@@ -25,11 +25,6 @@
           <input type="text" id="username" Name="username" placeholder="Name">
         </p>
 
-        <p>
-          <label for="Queries"> Queries:</label>
-          <input type="Queries" id="Queries">
-        </p>
-
 
         <p>
         <h3> Your Gender</h3>
@@ -37,6 +32,32 @@
         <input type="radio" id="Male" name="Male" name="gender">
         <label for="Female"> Female</label>
         <input type="radio" id="Female" name="Female" name="gender">
+        </p>
+
+        <p>
+        <h4>Select you hobby</h4>
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" value="dance" name="dance">
+        <label for="sing">Sing</label>
+        <input type="checkbox" id="sing" value="sing" name="sing">
+        </p>
+
+        <p>
+        <h5> Fav Coffee</h5>
+        <select name="coffee" id="coffee">
+          <optgroup label="hard coffee">
+            <option value="latte" selected>latte</option>
+            <option value="capp">capp</option>
+          </optgroup>
+          <optgroup label="soft coffee">
+            <option value="mocha">mocha</option>
+          </optgroup>
+        </select>
+        </p>
+
+        <p> your message</p>
+        <p>
+          <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
         </p>
 
         <button type="Submit"> Submit</button>
